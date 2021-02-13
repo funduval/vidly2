@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import _ from "lodash";
-import Pagination from "./pagination";
 
 const Pagination = (props) => {
   const { itemsCount, pageSize, currentPage, onPageChange } = props;
